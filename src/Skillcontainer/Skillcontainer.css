@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.Skillcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 200px 0;
+}
+
+.Skillcontainer__text {
+  color: rgb(178, 83, 83);
+  flex: 0.6;
+  text-align: left;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.Skillcontainer__text > h2 {
+  font-size: 30px;
+}
+
+.Skillcontainer__image {
+  flex: 0.5;
+  text-align: center;
+ 
+  margin-right: 100px;
+}
+
+.Skillcontainer__image > img {
+  width: 600px;
+  border-radius: 3px;
+  object-fit: fill;
+}
+
+.Skillcontainer__skillSet > h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  padding-bottom: 10px;
+  padding-top: 30px;
+}
+
+.Skillcontainer__slider > .MuiLinearProgress-colorPrimary {
+  background-color: rgb(169, 70, 70);
+}
+
+.Skillcontainer__slider1 > div > .MuiLinearProgress-barColorPrimary {
+  background-color: tomato;
+}
+
+.Skillcontainer__slider2 > div > .MuiLinearProgress-barColorPrimary {
+  background-color: rgb(156, 26, 3);
+}
+
+.Skillcontainer__slider3 > div > .MuiLinearProgress-barColorPrimary {
+  background-color: rgb(192, 132, 55);
+}
+
